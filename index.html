@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cureseven.tokyo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Poppins|Questrial" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Noto+Sans|Poppins|Questrial" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarEexample8">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+                        <a class="navbar-brand" href="#">
+                            <img src="images/index.jpeg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarEexample8">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#profile">Profile</a></li>
+                            <li><a href="#contents">Contents</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <p class="wellcome">
+                <img src="images/index.jpeg" alt=""><br> Welcome to ようこそ cureseven.tokyo
+
+            </p>
+            <h1 id="profile">
+                profile
+            </h1>
+            <p class="contents">
+                20歳，広島出身で山口在住です．基町高校→現在
+                <a href="http://www.csse.yamaguchi-u.ac.jp/">山口大学工学部知能情報工学科</a>の3年生．
+                <br> まだこれといった成果物がないので これからは軽音部のHPと部室予約システムの作成，私がマネージャーをしている
+                <a> href="https://www.youtube.com/channel/UCCHWCiwYA1vjHP8dJsCo4Jw">ナヤミ</a>のHPを作成したいと考えています．
+                <br> クールに生きたい．
+                <br>
+            </p>
+
+            <h3>Interest </h3>
+            <p class="contents">
+                webアプリケーション <br> スマホアプリ <br>
+            </p>
+            <h3>Skill </h3>
+
+            <table class="skill-table">
+                <tr>
+                    <td>C</td>
+                    <td>*****</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>*****</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>*****</td>
+                </tr>
+                <tr>
+                    <td>Swift</td>
+                    <td>*****</td>
+                </tr>
+            </table>
+
+            <h3> Mail </h3>
+            <p class="contents">
+                <a href="mailto:shiningcureseven@gmail.com">shiningcureseven@gmail.com</a>
+            </p>
+            <h3>Links</h3>
+            <p class="contents">
+                <a href="https://github.com/cureseven">GitHub</a> <br>
+                <a href="https://www.facebook.com/cureseven">FaceBook</a> <br>
+                <a href="http://shiningcureseven.hatenablog.com/">Blog</a> <br>
+            </p>
+
+            <h1 id="contents">
+                contents
+            </h1>
+            <p class="contents-contents">
+                <a href="https://cureseven.github.io/assessment/assessment.html"><img src="images/asessment.jpeg" alt=""></a><br><a href="https://cureseven.github.io/assessment/assessment.html">あなたのいいところ診断</a></p>
+            <p class="contents-contents">
+                <iframe width="400" height="300" src="https://www.youtube.com/embed/mNzNCzM7Ew0" frameborder="0" allowfullscreen></iframe> </p>
+            <p class="contents-contents">
+                <a href="http://typer115.tumblr.com/"> STORiA first mini Album 「origin」</a>
+            </p>
+
+
+            <marquee scrolldelay="60" scrollamount="6">にゃんにゃん</marquee>
+
+            <marquee scrolldelay="40" scrollamount="10" truespeed>にゃおーん</marquee>
+
+            <marquee scrolldelay="90" scrollamount="3">にゃー</marquee>
+
+
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript" src=“js/jquery-3.2.1.min.jp”></script>
+<script type="text/javascript">
+    $(function() {
+        $('a[href^=#]').click(function() {
+            var speed = 500;
+            var href = $(this).attr("href");
+            var target = $(href == "#" || href == "" ? 'html' : href);
+            var position = target.offset().top;
+            $("html, body").animate({
+                scrollTop: position
+            }, speed, "swing");
+            return false;
+        });
+    });
+</script>
+
+</html>
