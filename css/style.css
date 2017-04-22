@@ -3,52 +3,52 @@
         margin: 0;
         padding: 0;
     }
-    
+
     .jumbotron {
         width: 100%;
         margin: 0;
         padding: 0;
         background: #FFF;
     }
-    
+
     .a {
         size: 10px;
     }
-    
+
     .container {
         width: 100%;
         margin: 0;
         padding: 0;
         padding-top: 100px;
     }
-    
+
     .navbar-default {
         width: 100%;
         background: #FFF;
         border: NONE;
     }
-    
+
     .navbar-collapse {
         height: 100px;
     }
-    
+
     .navbar-brand {
         padding: 5px;
     }
-    
+
     .navbar-brand img {
         height: 100%;
     }
-    
+
     nav {
         width: 100%;
     }
-    
+
     li.active a {
         background-color: #FFF;
         color: #FFF;
     }
-    
+
     h1 {
         margin-top: 500px;
         margin-bottom: 40px;
@@ -58,12 +58,12 @@
         font-family: 'Poppins', sans-serif;
         font-family: 'Questrial', sans-serif;
     }
-    
+
     h3 {
         margin-top: 80px;
         text-align: center;
     }
-    
+
     p.wellcome {
         text-align: center;
         width: 60vw;
@@ -73,7 +73,7 @@
         letter-spacing: 0.15em;
         font-family: 'Quicksand', sans-serif;
     }
-    
+
     p.contents {
         text-align: center;
         width: 60vw;
@@ -85,7 +85,13 @@
         font-family: 'Questrial', sans-serif;
         font-family: 'Noto Sans', sans-serif;
     }
-    
+
+    table.skill-table {
+      text-align: center;
+      width: 60vw;
+      margin: 0 auto;
+    }
+
     p.contents-contents {
         text-align: center;
         width: 60vw;
