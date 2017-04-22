@@ -50,6 +50,7 @@
     }
     
     h1 {
+        padding-top: 100px;
         margin-top: 500px;
         margin-bottom: 40px;
         letter-spacing: 0.1em;
@@ -86,9 +87,9 @@
         font-family: 'Noto Sans', sans-serif;
     }
     
-    p.contents table {
+    table.skill-table {
         text-align: center;
-        width: 100%;
+        width: 60vw;
         margin: 0 auto;
         font-size: 13px;
         letter-spacing: 0.1em;
@@ -99,10 +100,13 @@
         width: 60vw;
         font-size: 13px;
         letter-spacing: 0.1em;
-        margin-top: 50px;
-        margin-bottom: 350px;
+        margin: 50px auto 350px;
         font-family: 'Muli', sans-serif;
         font-family: 'Poppins', sans-serif;
         font-family: 'Questrial', sans-serif;
         font-family: 'Noto Sans', sans-serif;
+    }
+    
+    p.contents-contents img {
+        width: 60vw;
     }
