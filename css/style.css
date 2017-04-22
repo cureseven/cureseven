@@ -86,6 +86,14 @@
         font-family: 'Noto Sans', sans-serif;
     }
     
+    p.contents table {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 13px;
+        letter-spacing: 0.1em;
+    }
+    
     p.contents-contents {
         text-align: center;
         width: 60vw;
