@@ -112,13 +112,15 @@
     }
     
     .youtube {
-        text-align: center;
+        margin: 10px 0;
         position: relative;
         width: 100%;
         padding-top: 56.25%;
     }
     
     .youtube iframe {
+        margin: 0 auto;
+        display: block;
         position: absolute;
         top: 0;
         right: 0;
