@@ -97,7 +97,7 @@
     
     p.contents-contents {
         text-align: center;
-        width: 60vw;
+        width: 40vw;
         font-size: 13px;
         letter-spacing: 0.1em;
         margin: 50px auto 350px;
@@ -108,16 +108,16 @@
     }
     
     p.contents-contents img {
-        width: 50vw;
+        width: 40vw;
     }
     
     .youtube {
         margin: 10px 0;
         position: relative;
+        padding-top: 25%;
         width: 80%;
-        padding-top: 56.25%;
         /*height: 100%; */
-        max-width: 50vw;
+        max-width: 40vw;
         margin: 0 auto;
     }
     
@@ -131,3 +131,4 @@
         height: 100%;
         position: absolute;
     }
+    /*width="400" height="300"*/
