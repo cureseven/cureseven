@@ -100,7 +100,7 @@
         width: 40vw;
         font-size: 13px;
         letter-spacing: 0.1em;
-        margin: 50px auto 350px;
+        margin: 200px auto 50px;
         font-family: 'Muli', sans-serif;
         font-family: 'Poppins', sans-serif;
         font-family: 'Questrial', sans-serif;
@@ -131,4 +131,8 @@
         height: 100%;
         position: absolute;
     }
-    /*width="400" height="300"*/
+    
+    .contents-comment {
+        position: absolute;
+        text-align: center;
+    }
