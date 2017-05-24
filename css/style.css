@@ -136,3 +136,15 @@
         position: absolute;
         text-align: center;
     }
+    
+    @font-face {
+        font-family: kazufont2b_s;
+        src: url(webfont/kazufont2b_web_s.eot?) format("eot"), url(webfont/kazufont2b_web_s.woff) format("woff"), url(webfont/kazufont2b_web_s.ttf) format("truetype");
+    }
+    
+    #fontchange p {
+        font-family: kazufont2b_s;
+        font-size: 130%;
+        color: red;
+        text-align: center;
+    }
