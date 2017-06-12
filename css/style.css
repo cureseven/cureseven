@@ -3,52 +3,52 @@
         margin: 0;
         padding: 0;
     }
-    
+
     .jumbotron {
         width: 100%;
         margin: 0;
         padding: 0;
         background: #FFF;
     }
-    
+
     .a {
         size: 10px;
     }
-    
+
     .container {
         width: 100%;
         margin: 0;
         padding: 0;
         padding-top: 100px;
     }
-    
+
     .navbar-default {
         width: 100%;
         background: #FFF;
         border: NONE;
     }
-    
+
     .navbar-collapse {
         height: 100px;
     }
-    
+
     .navbar-brand {
         padding: 5px;
     }
-    
+
     .navbar-brand img {
         height: 100%;
     }
-    
+
     nav {
         width: 100%;
     }
-    
+
     li.active a {
         background-color: #FFF;
         color: #FFF;
     }
-    
+
     h1 {
         padding-top: 100px;
         margin-top: 500px;
@@ -59,12 +59,12 @@
         font-family: 'Poppins', sans-serif;
         font-family: 'Questrial', sans-serif;
     }
-    
+
     h3 {
         margin-top: 80px;
         text-align: center;
     }
-    
+
     p.wellcome {
         text-align: center;
         width: 60vw;
@@ -74,7 +74,7 @@
         letter-spacing: 0.15em;
         font-family: 'Quicksand', sans-serif;
     }
-    
+
     p.contents {
         text-align: center;
         width: 60vw;
@@ -86,7 +86,7 @@
         font-family: 'Questrial', sans-serif;
         font-family: 'Noto Sans', sans-serif;
     }
-    
+
     table.skill-table {
         text-align: center;
         width: 20vw;
@@ -94,7 +94,11 @@
         font-size: 15px;
         letter-spacing: 0.1em;
     }
-    
+    table.skill-table td{
+      width: 50px;
+
+    }
+
     p.contents-contents {
         text-align: center;
         width: 40vw;
@@ -106,11 +110,11 @@
         font-family: 'Questrial', sans-serif;
         font-family: 'Noto Sans', sans-serif;
     }
-    
+
     p.contents-contents img {
         width: 40vw;
     }
-    
+
     .youtube {
         margin: 10px 0;
         position: relative;
@@ -120,7 +124,7 @@
         max-width: 40vw;
         margin: 0 auto;
     }
-    
+
     .youtube iframe {
         text-align: center;
         margin: 0 auto;
@@ -131,17 +135,17 @@
         height: 100%;
         position: absolute;
     }
-    
+
     .contents-comment {
         position: absolute;
         text-align: center;
     }
-    
+
     @font-face {
         font-family: kazufont2b_s;
         src: url(webfont/kazufont2b_web_s.eot?) format("eot"), url(webfont/kazufont2b_web_s.woff) format("woff"), url(webfont/kazufont2b_web_s.ttf) format("truetype");
     }
-    
+
     #fontchange p {
         font-family: kazufont2b_s;
         font-size: 130%;
