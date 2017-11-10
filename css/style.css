@@ -105,6 +105,21 @@
         letter-spacing: 0.1em;
         width: 100px !important;
     }
+    table.benkyokai-table {
+        text-align: left;
+        /*width: 40vw;*/
+        margin: 0 auto;
+        font-size: 15px;
+        letter-spacing: 0.1em;
+        /*width: 100px !important;*/
+        border: 1px #E6E6E6 solid;
+    }
+
+    table.benkyokai-table td,th {
+        border: 1px #E6E6E6 solid;
+    }
+
+
 
     table.skill-table td {
         width: 50px !important;
