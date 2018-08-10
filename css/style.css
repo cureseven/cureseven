@@ -1,217 +1,52 @@
-    body {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
+.navbar-default {
+  background-color: #ffff
+}
 
-    .jumbotron {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        background: #FFF;
-    }
+.navbar-header {
+  background-color: #ffff
+}
 
-    .a {
-        size: 10px;
-    }
+.page-header {
+  margin-top: 80px;
+}
 
-    .container {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        padding-top: 100px;
-    }
+body {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Questrial', sans-serif;
+  letter-spacing: 0.15em;
+  font-size: 13px;
+}
 
-    .navbar-default {
-        width: 100%;
-        background: #FFF;
-        border: NONE;
-    }
+b {
+  font-size: 14px;
+}
 
-    .navbar-collapse {
-        height: 100px;
-    }
+h3 {
+  margin-top: 80px;
+}
 
-    .navbar-brand {
-        padding: 5px;
-    }
+img.contentsimage {
+  width: 30vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
 
-    .navbar-brand img {
-        height: 100%;
-    }
+img.icon {
+  width: 20px;
+  margin-top:20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
 
-    nav {
-        width: 100%;
-    }
+li {
+  list-style-type: square;
+}
 
-    li.active a {
-        background-color: #FFF;
-        color: #FFF;
-    }
+div.cntmargin {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
 
-    h1 {
-        padding-top: 100px;
-        margin-top: 500px;
-        /*margin-bottom: 40px;*/
-        letter-spacing: 0.1em;
-        text-align: center;
-        font-family: 'Muli', sans-serif;
-        font-family: 'Poppins', sans-serif;
-        font-family: 'Questrial', sans-serif;
-    }
-
-    h3 {
-        margin-top: 80px;
-        text-align: center;
-    }
-
-
-    p.wellcome {
-        text-align: center;
-        width: 60vw;
-        margin: 0 auto;
-        margin-top: 100px;
-        font-size: 30px;
-        letter-spacing: 0.15em;
-        font-family: 'Quicksand', sans-serif;
-    }
-    div.wellcome {
-        text-align: center;
-        width: 60vw;
-        margin: 0 auto;
-        margin-top: 100px;
-        font-size: 30px;
-        letter-spacing: 0.15em;
-        font-family: 'Quicksand', sans-serif;
-    }
-
-    p.contents {
-        text-align: center;
-        width: 60vw;
-        margin: 0 auto;
-        font-size: 13px;
-        letter-spacing: 0.1em;
-        font-family: 'Muli', sans-serif;
-        font-family: 'Poppins', sans-serif;
-        font-family: 'Questrial', sans-serif;
-        font-family: 'Noto Sans', sans-serif;
-    }
-
-    table.skill-table {
-        text-align: center;
-        width: 20vw;
-        margin: 0 auto;
-        font-size: 15px;
-        letter-spacing: 0.1em;
-        width: 100px !important;
-    }
-    table.benkyokai-table {
-        text-align: left;
-        /*width: 40vw;*/
-        margin: 0 auto;
-        font-size: 15px;
-        letter-spacing: 0.1em;
-        /*width: 100px !important;*/
-        border: 1px #E6E6E6 solid;
-    }
-
-    table.benkyokai-table td,th {
-        border: 1px #E6E6E6 solid;
-    }
-
-
-
-    table.skill-table td {
-        width: 50px !important;
-    }
-
-    .link{
-      text-align: center;
-      width: 40vw;
-      font-size: 13px;
-      letter-spacing: 0.1em;
-      margin: 20px auto 20px;
-      font-family: 'Muli', sans-serif;
-      font-family: 'Poppins', sans-serif;
-      font-family: 'Questrial', sans-serif;
-      font-family: 'Noto Sans', sans-serif;
-    }
-    p.contents-contents {
-        text-align: center;
-        width: 40vw;
-        font-size: 13px;
-        letter-spacing: 0.1em;
-        margin: 0px auto 50px;
-        font-family: 'Muli', sans-serif;
-        font-family: 'Poppins', sans-serif;
-        font-family: 'Questrial', sans-serif;
-        font-family: 'Noto Sans', sans-serif;
-    }
-
-    p.contents-contents img {
-      /*margin: 0px auto 50px;*/
-      width: 40vw;
-      text-align: center;
-    }
-
-    p.topimage {
-        text-align: center;
-        width: 40vw;
-        margin: 0px auto 50px;
-
-    }
-
-    p.topimage img {
-      width: 40vw;
-    }
-
-    .youtube {
-        margin: 10px 0;
-        position: relative;
-        padding-top: 25%;
-        width: 80%;
-        /*height: 100%; */
-        max-width: 40vw;
-        margin: 0 auto;
-    }
-
-    .youtube iframe {
-        text-align: center;
-        margin: 0 auto;
-        display: block;
-        top: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-
-    }
-
-    .contents-comment {
-        /*position: absolute;*/
-        text-align: center;
-    }
-
-    .padding {
-      padding-top: 100px;
-    }
-
-    @font-face {
-        font-family: kazufont2b_s;
-        src: url(webfont/kazufont2b_web_s.eot?) format("eot"), url(webfont/kazufont2b_web_s.woff) format("woff"), url(webfont/kazufont2b_web_s.ttf) format("truetype");
-    }
-
-    #fontchange p {
-        font-family: kazufont2b_s;
-        font-size: 130%;
-        color: red;
-        text-align: center;
-    }
-
-    #selection {
-      margin-top: 250px;
-    }
-
-    .skill-table-td {
-      margin: 30px 30px;
-    }
+.under-div {
+  background-color: #FFE4E1;
+}
