@@ -1,9 +1,9 @@
 .navbar-default {
-  background-color: #ffff
+  background-color: #FFF0F5
 }
 
 .navbar-header {
-  background-color: #ffff
+  background-color: #FFF0F5
 }
 
 .page-header {
@@ -21,7 +21,7 @@ b {
   font-size: 14px;
 }
 
-h3 {
+h3.titleh3 {
   margin-top: 80px;
 }
 
@@ -48,5 +48,5 @@ div.cntmargin {
 }
 
 .under-div {
-  background-color: #FFE4E1;
+  background-color: #FFC0CB;
 }
