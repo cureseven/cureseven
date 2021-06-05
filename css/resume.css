@@ -1,0 +1,41 @@
+body {
+    margin: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 0.05em;
+}
+
+.resume-title {
+    margin: 16px;
+}
+
+.resume-body {
+    margin: 48px;
+}
+
+.resume-table {
+    width: 50%;
+}
+
+h2 {
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 40px;
+    padding-left: 8px;
+}
+
+p {
+    font-size: small;
+}
+li {
+    font-size: small;
+}
+
+.discription {
+    padding-left: 24px;
+}
